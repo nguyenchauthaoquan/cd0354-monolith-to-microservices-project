@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: quannct/reverseproxy:v2
+      - image: quannct/reverseproxy:v3
         name: reverseproxy
         imagePullPolicy: Always          
         resources:

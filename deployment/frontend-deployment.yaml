@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: quannct/udagram-frontend:v2
+        image: quannct/udagram-frontend:v3
         imagePullPolicy: Always          
         ports:
         - containerPort: 80
